@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def generar_sql_desde_prompt(prompt, esquema):
     response = client.chat.completions.create(
